@@ -1,11 +1,12 @@
 import { Fragment } from "react";
 
-import { Nav } from "./components/base";
+import { Nav, Hero } from "./components/base";
 
 const App = () => {
   return (
     <Fragment>
       <Nav />
+      <Hero />
     </Fragment>
   );
 };
